@@ -51,9 +51,9 @@
     "when": "explorerViewletFocus"
   },
   {
-    "key": "shift+n",
+    "key": "ctrl+shift+n",
     "command": "workbench.action.newWindow",
-    "when": "!explorerViewletFocus"
+    "when": "!explorerViewletFocus && !terminalFocus"
   },
   {
     "command": "deleteFile",
